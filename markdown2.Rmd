@@ -1,0 +1,58 @@
+---
+title: "markdown2"
+output:
+  pdf_document: default
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
+##1.1. [마크다운이란?](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+
+
+###마크다운 문법 
+
+문자 앞뒤에 *특수문자*를 넣으면 기울임체
+
+문자 앞뒤에 **특수문자**를 넣으면 강조체
+
+문자 앞뒤에 ~~특수문자~~를 넣으면 취소선
+
+문자 앞뒤에 [특수문자](http://www.google.com)를 넣으면
+하이퍼 링크를 만듭니다.
+
+# 1단계 제목
+## 2단계 제목
+### 3단계 제목
+#### 4단계 제목
+
+데이터 앞부분 일부를 출력하려면 'head()'
+`tail()`은 데이터 뒷부분 일부분을 출력
+
+
